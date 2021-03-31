@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/SFProDisplay-light.woff2") format("woff2"),
+    url("../fonts/SFProDisplay-light.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
