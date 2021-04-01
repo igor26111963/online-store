@@ -20,10 +20,16 @@
   box-sizing: border-box;
 }
 
-.footer-info__social-list {
+.header {
+  display: flex;
+}
+.header-nav__list {
   display: flex;
 }
 
+.footer-info__social-list {
+  display: flex;
+}
 .footer-nav__list {
   display: flex;
 }
