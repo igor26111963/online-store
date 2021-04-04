@@ -20,11 +20,27 @@
   box-sizing: border-box;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
 .header {
-  display: flex;
+  padding: 40px 200px 60px;
+  display: grid;
+  grid-template-columns: min-content max-content min-content;
+  grid-gap: 132px;
+  align-items: center;
 }
 .header-nav__list {
-  display: flex;
+  width: 522px;
+  display: grid;
+  grid-template-columns: repeat(6, max-content);
+  grid-gap: 40px;
 }
 
 .footer-info__social-list {
