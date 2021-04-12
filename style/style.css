@@ -20,6 +20,11 @@
   box-sizing: border-box;
 }
 
+.body {
+  width: 1600px;
+  margin: 0 auto;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -41,6 +46,10 @@ li {
   display: grid;
   grid-template-columns: repeat(6, max-content);
   grid-gap: 40px;
+  font-family: SF Pro Display;
+  font-size: 15px;
+  line-height: 22px;
+  color: #171a1c;
 }
 
 .footer-info__social-list {
